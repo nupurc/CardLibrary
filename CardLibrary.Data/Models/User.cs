@@ -11,6 +11,8 @@ namespace CardLibrary.Data.Models
 
         [MaxLength(10)]
         public string UsertName { get; set; }
+
+        public string password { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime UpdatedOn { get; set; }
         [MaxLength(100)]

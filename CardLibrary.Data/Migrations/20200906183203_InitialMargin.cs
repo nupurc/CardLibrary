@@ -257,6 +257,7 @@ namespace CardLibrary.Data.Migrations
                     UserId = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UsertName = table.Column<string>(maxLength: 10, nullable: true),
+                    password = table.Column<string>(maxLength: 20, nullable: true),
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     UpdatedOn = table.Column<DateTime>(nullable: false),
                     FirstName = table.Column<string>(maxLength: 100, nullable: true),

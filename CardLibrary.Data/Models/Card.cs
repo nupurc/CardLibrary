@@ -1,13 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Reflection.Metadata;
-using System.Text;
 
 namespace CardLibrary.Data.Models
 {
-   public class Card
+    public class Card
     {
         public int CardId { get; set; }
         [MaxLength(50)]
@@ -22,8 +18,8 @@ namespace CardLibrary.Data.Models
         public DateTime CreatedOn { get; set; }
         public DateTime UpdatedOn { get; set; }
        
-        public CardGroup cardGroup { get; set; }
-        public UserCard UserCard { get; set; }        
+        //public CardGroup cardGroup { get; set; }
+        //public UserCard UserCard { get; set; }        
 
     }
 }
