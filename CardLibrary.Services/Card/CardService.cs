@@ -94,5 +94,53 @@ namespace CardLibrary.Services.Card
         {
             return _db.Cards.Find(id);
         }
+
+        public ServiceResponse<Data.Models.Card> UpdateCard(Data.Models.Card card)
+        {
+            var carddata = _db.Cards.Find(card.CardId);
+            var now = DateTime.UtcNow;
+
+            if (carddata == null)
+            {
+                return new ServiceResponse<Data.Models.Card>
+                {
+                    Time = now,
+                    IsSuccess = false,
+                    Message = "Card to Update not found!",
+                    Data = card
+                };
+            }
+
+            try
+            {
+                carddata.isActive = card.isActive;
+                carddata.CardImage = card.CardImage;
+                carddata.Description = card.Description;
+                carddata.ShortUrl = card.ShortUrl;
+                carddata.Title = card.Title;
+                carddata.UpdatedOn = card.UpdatedOn;
+                _db.Cards.Update(card);
+                _db.SaveChanges();
+
+                return new ServiceResponse<Data.Models.Card>
+                {
+                    Data = card,
+                    Time = DateTime.UtcNow,
+                    Message = "Saved Updated card",
+                    IsSuccess = true
+                };
+            }
+
+            catch (Exception e)
+            {
+                return new ServiceResponse<Data.Models.Card>
+                {
+                    Time = now,
+                    IsSuccess = false,
+                    Message = e.StackTrace,
+                    Data = card
+                };
+            }
+        }
     }
 }

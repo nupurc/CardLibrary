@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CardLibrary.Data\CardLibrary.Data.csproj" />
+    <ProjectReference Include="..\CardLibrary.Services\CardLibrary.Services.csproj" />
   </ItemGroup>
 
 

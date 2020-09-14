@@ -10,5 +10,6 @@ namespace CardLibrary.Services.Card
         Data.Models.Card GetCardById(int id);
         ServiceResponse<Data.Models.Card> CreateCard(Data.Models.Card card);
         ServiceResponse<bool> ArchiveCard(int id);
+        ServiceResponse<Data.Models.Card> UpdateCard(Data.Models.Card card);
     }
 }

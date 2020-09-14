@@ -10,11 +10,11 @@ namespace CardLibrary.Web.Serialization
     public static class UserMapper
     {
         /// <summary>
-        /// Serializes a UserCard data model into a UserCard view model
+        /// Serializes a User data model into a UserModel view model
         /// </summary>
-        /// <param name="UserCard"></param>
+        /// <param name="UserModel"></param>
         /// <returns></returns>
-        public static UserModel SerializeUserCard(User user)
+        public static UserModel SerializeUser(User user)
         {
             return new UserModel
             {
@@ -26,26 +26,30 @@ namespace CardLibrary.Web.Serialization
                 CreatedOn = user.CreatedOn,
                 UpdatedOn = user.UpdatedOn,
                 isActive = user.isActive,
-                UserRoleModel = user.UserRole,
+                UserRoleModel = UserRoleMapper.SerializeUserRole(user.UserRole),
                 UserGroupModel = UserGroupMapper.SerializeUserGroup(user.UserGroup)
             };
         }
 
         /// <summary>
-        /// Serializes a UserCardModel view model into a UserCard data model
+        /// Serializes a UserModel view model into a User data model
         /// </summary>
-        /// <param name="UserCardModel"></param>
+        /// <param name="UserModel"></param>
         /// <returns></returns>
-        public static User SerializeUserCard(UserModel userModel)
+        public static User SerializeUser(UserModel userModel)
         {
-            return new UserCard
+            return new User
             {
-                CardId = userModel.CardId,
-                UserCardId = userCardModel.UserCardId,
-                UserId = userCardModel.UserId,
-                CreatedOn = userCardModel.CreatedOn,
-                UpdatedOn = userCardModel.UpdatedOn,
-                isActive = userCardModel.isActive,
+                UserId = userModel.UserId,
+                UsertName = userModel.UsertName,
+                password = userModel.password,
+                FirstName = userModel.FirstName,
+                LastName = userModel.LastName,
+                CreatedOn = userModel.CreatedOn,
+                UpdatedOn = userModel.UpdatedOn,
+                isActive = userModel.isActive,
+                UserRole = UserRoleMapper.SerializeUserRole(userModel.UserRoleModel),
+                UserGroup = UserGroupMapper.SerializeUserGroup(userModel.UserGroupModel)
             };
         }
     }
