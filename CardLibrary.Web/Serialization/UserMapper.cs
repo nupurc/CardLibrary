@@ -26,8 +26,8 @@ namespace CardLibrary.Web.Serialization
                 CreatedOn = user.CreatedOn,
                 UpdatedOn = user.UpdatedOn,
                 isActive = user.isActive,
-                UserRoleModel = UserRoleMapper.SerializeUserRole(user.UserRole),
-                UserGroupModel = UserGroupMapper.SerializeUserGroup(user.UserGroup)
+                UserRoleModelId = user.UserRoleId,
+                UserGroupModelId = user.UserGroupId
             };
         }
 
@@ -48,8 +48,8 @@ namespace CardLibrary.Web.Serialization
                 CreatedOn = userModel.CreatedOn,
                 UpdatedOn = userModel.UpdatedOn,
                 isActive = userModel.isActive,
-                UserRole = UserRoleMapper.SerializeUserRole(userModel.UserRoleModel),
-                UserGroup = UserGroupMapper.SerializeUserGroup(userModel.UserGroupModel)
+                UserRoleId = userModel.UserRoleModelId,
+                UserGroupId = userModel.UserRoleModelId
             };
         }
     }

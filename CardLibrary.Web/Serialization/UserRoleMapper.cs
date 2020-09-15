@@ -24,7 +24,7 @@ namespace CardLibrary.Web.Serialization
                 UpdatedOn = userRole.UpdatedOn,
                 isActive = userRole.isActive,
             };
-        }
+        }      
 
         /// <summary>
         /// Serializes a UserGroupModel view model into a UserCard data model

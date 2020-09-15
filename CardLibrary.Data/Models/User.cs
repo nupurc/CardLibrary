@@ -22,7 +22,7 @@ namespace CardLibrary.Data.Models
 
         public bool isActive { get; set; }
 
-        public UserRole UserRole { get; set; }
-        public UserGroup UserGroup { get; set; }
+        public int UserRoleId { get; set; }
+        public int UserGroupId { get; set; }
     }
 }

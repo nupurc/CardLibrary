@@ -85,8 +85,7 @@ namespace CardLibrary.Services.User
 
         public List<Data.Models.User> GetAllUsers()
         {
-            return _db.UserLists
-                 .Include(usr => usr.FirstName)
+            return _db.UserLists                 
                  .OrderBy(usr => usr.LastName)
                  .ToList();
         }

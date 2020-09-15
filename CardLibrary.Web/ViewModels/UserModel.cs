@@ -23,7 +23,7 @@ namespace CardLibrary.Web.ViewModels
 
         public bool isActive { get; set; }
 
-        public UserRoleModel UserRoleModel { get; set; }
-        public UserGroupModel UserGroupModel { get; set; }
+        public int UserRoleModelId { get; set; }
+        public int UserGroupModelId { get; set; }
     }
 }
