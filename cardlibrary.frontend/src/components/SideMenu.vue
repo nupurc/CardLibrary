@@ -6,35 +6,25 @@
                  src="../assets/images/solar_coffee_logo.png" />
         </router-link>
         <h1>Management Portal</h1>
-        <solar-button id="menuInventory"
+        <solar-button id="menuCard"
                       is-full-width
                       @button:click="goToRoute('/inventory')">
-            Inventory
+         Manage Card
         </solar-button>
         <solar-button id="menuCustomers"
                       is-full-width
                       @button:click="goToRoute('/customers')">
-            Manage Customers
-        </solar-button>
-        <solar-button id="menuInvoice"
-                      is-full-width
-                      @button:click="goToRoute('/invoice/new')">
-            New Invoice
-        </solar-button>
-        <solar-button id="menuOrders"
-                      is-full-width
-                      @button:click="goToRoute('/orders')">
-            Orders
-        </solar-button>
+            Manage User
+        </solar-button>        
     </div>
 </template>
 
 <script lang="ts">import { Component, Vue } from "vue-property-decorator";
-import SolarButton from "@/components/SolarButton.vue";
+ import CardLibButton from "@/components/CardLibButton.vue";
 
 @Component({
   name: "SideMenu",
-  components: { SolarButton }
+    components: { CardLibButton }
 })
 export default class SideMenu extends Vue {
   async goToRoute(route: string) {

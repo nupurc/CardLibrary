@@ -17,7 +17,7 @@ import SideMenu from "@/components/SideMenu.vue";
   components: { SideMenu }
 })
 export default class App extends Vue {}</script>
-
+<script src="../node-modules/vue-images/dist/vue-images.js"></script>
 <style lang="scss">
 
     @import "@/scss/global.scss";
@@ -29,6 +29,7 @@ export default class App extends Vue {}</script>
         text-align: center;
         color: #2c3e50;
         display: flex;
+    }
         .app-menu
 
     {
@@ -40,9 +41,7 @@ export default class App extends Vue {}</script>
         width: 90%;
         margin: 1rem auto 1rem $menu-width;
         text-align: left;
-    }
-
-    }
+    }    
 
     * {
         margin: 0;

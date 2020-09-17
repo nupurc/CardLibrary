@@ -45,9 +45,8 @@ export default class SolarButton extends Vue {
         border: none;
         border-bottom: 2px solid darken($solar-blue, 20%);
         border-radius: 3px;
-        &:hover
-
-    {
+    }
+        &:hover    {
         background: lighten($solar-blue, 20%);
         transition: background-color 0.5s;
     }
@@ -60,9 +59,7 @@ export default class SolarButton extends Vue {
     &:active {
         background: $solar-yellow;
         border-bottom: 2px solid lighten($solar-yellow, 20%);
-    }
-
-    }
+    }    
 
     .full-width {
         display: block;
