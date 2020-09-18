@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-09-18T05:04:00.9742598Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "d775a09c-a06b-41a3-b495-475162b3d575"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "AzureBackupRG_eastus_1"
+    }
+  }
+}

@@ -5,14 +5,14 @@
                  alt="Solar Coffee logo"
                  src="../assets/images/solar_coffee_logo.png" />
         </router-link>
-        <h1><a id="menuhome" href="http://192.168.1.8:8081">Management Portal</a></h1>
-        <a id="menuCard" href="http://localhost:8081/card">
+        <h1><a id="menuhome" href="https://cardlibstorage.z13.web.core.windows.net/">Management Portal</a></h1>
+        <a id="menuCard" href="https://cardlibstorage.z13.web.core.windows.net/card">
             Card  Gallery    <i> </i>
         </a>
-        <a id="menuCard" href="http://localhost:8081/user">
+        <a id="menuCard" href="https://cardlibstorage.z13.web.core.windows.net/user">
             User  Creation    <i> </i>
         </a>
-        <a id="menuCard" href="http://localhost:8081/users">
+        <a id="menuCard" href="https://cardlibstorage.z13.web.core.windows.net/users">
             User  List    <i> </i>
         </a>
     </div>

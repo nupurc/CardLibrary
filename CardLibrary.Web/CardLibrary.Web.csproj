@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>c9861c01-1194-465f-9ec9-a72977d1ab0d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
