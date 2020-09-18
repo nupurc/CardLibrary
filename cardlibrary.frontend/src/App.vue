@@ -17,7 +17,6 @@ import SideMenu from "@/components/SideMenu.vue";
   components: { SideMenu }
 })
 export default class App extends Vue {}</script>
-<script src="../node-modules/vue-images/dist/vue-images.js"></script>
 <style lang="scss">
 
     @import "@/scss/global.scss";

@@ -31,16 +31,7 @@ namespace CardLibrary.Web
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(options =>
-            {
-                options.Authority = $"https://{Configuration["Auth0:Domain"]}/";
-                options.Audience = Configuration["Auth0:Audience"];
-            });
+        {            
             services.AddCors();
             services.AddControllers().AddNewtonsoftJson(opts => {
                 opts.SerializerSettings.ContractResolver = new DefaultContractResolver
@@ -76,7 +67,6 @@ namespace CardLibrary.Web
             app.UseCors(
                builder => builder
                    .WithOrigins(
-                       "http://localhost:8080",
                        "http://localhost:8081",
                        "http://localhost:8082")
                    .AllowAnyMethod()

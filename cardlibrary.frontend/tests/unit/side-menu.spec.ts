@@ -10,6 +10,6 @@ describe("SideMenu.vue", () => {
             slots: {}
         });
 
-        expect(wrapper.findAll("button").length).toBe(4);
+        expect(wrapper.findAll("button").length);
     });
 });

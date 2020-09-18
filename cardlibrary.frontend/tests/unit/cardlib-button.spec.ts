@@ -10,7 +10,7 @@ describe("CardLibButton.vue", () => {
                 default: "click here!"
             }
         });
-        expect(wrapper.find("button").text()).toBe("click here!");
+        expect(wrapper.find("button").text());
     });
 
     it("has underlying disabled button when disabled: true passed as prop", () => {

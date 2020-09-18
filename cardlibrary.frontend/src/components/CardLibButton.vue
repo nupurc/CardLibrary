@@ -17,7 +17,7 @@ import { Prop } from "vue-property-decorator";
   name: "CardLibButton",
   components: {}
 })
-export default class SolarButton extends Vue {
+export default class CardLibButton extends Vue {
   @Prop({ required: false, type: Boolean, default: false })
   isFullWidth?: boolean;
 
@@ -46,17 +46,17 @@ export default class SolarButton extends Vue {
         border-bottom: 2px solid darken($solar-blue, 20%);
         border-radius: 3px;
     }
-        &:hover    {
+    .hover    {
         background: lighten($solar-blue, 20%);
         transition: background-color 0.5s;
     }
 
-    &:disabled {
+    .disabled {
         background: lighten($solar-blue, 15%);
         border-bottom: 2px solid lighten($solar-blue, 20%);
     }
 
-    &:active {
+    .active {
         background: $solar-yellow;
         border-bottom: 2px solid lighten($solar-yellow, 20%);
     }    

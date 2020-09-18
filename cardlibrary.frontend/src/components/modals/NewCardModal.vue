@@ -67,15 +67,22 @@
     </solar-modal>
 </template>
 
-<<script lang="ts">
-
+<script lang="ts">
+    // @ts-ignore
     import { mdbCard } from "@/components/mdbvue/lib/components/mdbCard";
+    // @ts-ignore
     import { mdbCardImage } from "@/components/mdbvue/lib/components/mdbCardImage";
+    // @ts-ignore
     import { mdbCardBody } from "@/components/mdbvue/lib/components/mdbCardBody";
+    // @ts-ignore
     import { mdbCardTitle } from "@/components/mdbvue/lib/components/mdbCardTitle";
+    // @ts-ignore
     import { mdbCardText } from "@/components/mdbvue/lib/components/mdbCardText";
+    // @ts-ignore
     import { mdbBtn } from "@/components/mdbvue/lib/components/mdbBtn";
+    // @ts-ignore
     import { mdbView } from "@/components/mdbvue/lib/components/mdbView";
+    // @ts-ignore
     import { mdbMask } from "@/components/mdbvue/lib/components/mdbMask";   
 
     import { Component, Prop, Vue } from "vue-property-decorator";
@@ -105,7 +112,7 @@ export default class NewProductModal extends Vue {
         Title : "",
         Description: "",
         ShortUrl: "",
-        CardImage: ""
+        CardImage: new ImageBitmap()
   };
 
   close() {
