@@ -28,14 +28,14 @@
             <!-- Material input email -->
             <div class="md-form">
                 <i class="fas fa-envelope prefix grey-text"></i>
-                <input type="email" id="materialFormRegisterEmailEx" class="form-control">
+                <input type="text" id="materialFormRegisterEmailEx" class="form-control">
                 <label for="materialFormRegisterEmailEx">Last Name</label>
             </div>
 
             <!-- Material input email -->
             <div class="md-form">
                 <i class="fas fa-exclamation-triangle prefix grey-text"></i>
-                <input type="email" id="materialFormRegisterConfirmEx" class="form-control">
+                <input  id="materialFormRegisterConfirmEx" class="form-control">
                 <label for="materialFormRegisterConfirmEx">User Name</label>
             </div>
 
@@ -48,7 +48,7 @@
             <div class="md-form">
                 <i class="fas fa-lock prefix grey-text"></i>
                 <select class="form-control select-dropdown" id="usrRole">
-                    <option disabled value="Admin">Admin</option>
+                    <option disabled selected="selected">Admin</option>
                 </select>
             </div>
             <div class="mt-4">

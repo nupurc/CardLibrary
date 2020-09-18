@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Cards from '@/views/Card.vue';
 import Users from '@/views/User.vue';
 import UserList from '@/views/UserList.vue';
+import NewCard from '@/views/NewCard.vue';
 
 Vue.use(VueRouter);
 
@@ -27,6 +28,11 @@ const routes = [
         name: 'userlist',
         component: UserList
     }, 
+    {
+        path: '/cards',
+        name: 'NewCard',
+        component: NewCard
+    },
 ];
 
 const router = new VueRouter({

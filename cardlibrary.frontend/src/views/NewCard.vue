@@ -1,5 +1,4 @@
 <template>
-
     <div class="main-tabs-docs">
         <section>
             <ul class="nav grey lighten-4 py-4">
@@ -16,213 +15,75 @@
                     <a class="nav-link " href="#!">Contact Us</a>
                 </li>
             </ul>
-        </section>    
-        <table>
-            <tr>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
+        </section>
+        <form class="mx-xl-5 waves-effect">
+            <!-- Material input text -->
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div><div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div class="md-form">
 
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap">
+                <i class="fas fa-user prefix grey-text"></i>
+                <label for="materialFormRegisterNameEx"> Select an image</label>
+                <input type="file" id="materialFormRegisterNameEx" class="form-control">
+            </div>
 
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Social shares button-->
-                                <a class="activator mr-4"><i class="fas fa-share-alt white-text"></i></a>
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <hr class="hr-light">
-                                <!--Text-->
-                                <p class="font-small mb-4">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
+            <!-- Material input email -->
+            <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <label for="materialFormRegisterEmailEx">Card Title</label>
+                <input type="text" id="materialFormRegisterEmailEx" class="form-control">
 
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
+            </div>
 
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
+            <!-- Material input email -->
+            <div class="md-form">
+                <i class="fas fa-exclamation-triangle prefix grey-text"></i>
+                <label for="materialFormRegisterConfirmEx">Card Description</label>
+                <input type="text" id="materialFormRegisterConfirmEx" class="form-control">
 
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <div class="view overlay">
-                                <a href="#!">
-                                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="img-fluid"
-                                         alt="Card image">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" alt="Card image cap">
-
-                            <!--Card content-->
-                            <div class="card-body elegant-color white-text">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" alt="Card image cap">
-
-                            <!--Card content-->
-                            <div class="card-body elegant-color white-text">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <section class="px-1">
-                        <div class="card" style="width: 23rem;">
-
-                            <!--Card image-->
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap">
-
-                            <!--Card content-->
-                            <div class="card-body elegant-color white-text">
-                                <!--Title-->
-                                <h4 class="card-title">Card title</h4>
-                                <!--Text-->
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#!" class="white-text d-flex justify-content-end">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                            </div>
-
-                        </div>
-                    </section>
-                </td>
-            </tr>
-        </table>
+            </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <!-- Material input password -->
+            <div class="mt-4">
+                <button class="btn btn-primary btn-unique" type="submit">Save</button>
+            </div>
+        </form>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div><div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div><div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div><div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div><div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
         <footer id="footer" class="page-footer center-on-small-only unique-color-dark pt-0">
             <div class="info-color-dark text-center py-4">
 
@@ -258,7 +119,7 @@
             </div>
         </footer>
     </div>
-    
+
 </template>
 
 
@@ -286,7 +147,7 @@
     import { ICardService } from "@/types/Card";
 
     @Component({
-        name: "NewCardModal",
+        name: "NewCard",
         components: {
             CardLibButton,
             CardModal,
@@ -300,7 +161,7 @@
             mdbMask
         }
     })
-    export default class Card extends Vue {
+    export default class NewCard extends Vue {
         newCard: ICardService = {
             createdOn: new Date(),
             updatedOn: new Date(),
@@ -318,15 +179,13 @@
         save() {
             this.$emit("save:card", this.newCard);
         }
-    }</script>
+    }
+    
+</script>
 
 <style scoped lang="scss">
-    .grey.lighten-4 {
-        background-color: #f5f5f5 !important;
-    }
-
-    .grey {
-        background-color: #9e9e9e !important;
+    .text-center {
+        text-align: center !important;
     }
 
     .pb-4, .py-4 {
@@ -336,6 +195,11 @@
     .pt-4, .py-4 {
         padding-top: 1.5rem !important;
     }
+
+    .info-color-dark {
+        background-color: #09c !important;
+    }
+
     .nav-link {
         display: block;
         padding: .5rem 1rem;
@@ -354,6 +218,218 @@
         text-decoration: none;
         background-color: transparent;
     }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .nav li {
+        list-style: none;
+    }
+
+
+    li {
+        text-align: -webkit-match-parent;
+    }
+
+    .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+
+    ul {
+        list-style-type: disc;
+    }
+
+    .nav li {
+        list-style: none;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+
+    ul {
+        list-style-type: disc;
+    }
+
+    .grey.lighten-4 {
+        background-color: #f5f5f5 !important;
+    }
+
+    .grey {
+        background-color: #9e9e9e !important;
+    }
+
+    .pb-4, .py-4 {
+        padding-bottom: 1.5rem !important;
+    }
+
+    .pt-4, .py-4 {
+        padding-top: 1.5rem !important;
+    }
+
+    .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    ol, ul, dl {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+    .nav-tabs .nav-item {
+        margin-bottom: -1px;
+    }
+
+    .nav li {
+        list-style: none;
+    }
+
+    .waves-effect {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    input[type="file" i] {
+        appearance: initial;
+        background-color: initial;
+        cursor: default;
+        align-items: baseline;
+        color: inherit;
+        text-align: start !important;
+        padding: initial;
+        border: initial;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    
+    input {
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark(black, white);
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: textfield;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+        border-image: initial;
+    }
+    .grey.lighten-4 {
+        background-color: #f5f5f5 !important;
+    }
+
+    .grey {
+        background-color: #9e9e9e !important;
+    }
+
+    .pb-4, .py-4 {
+        padding-bottom: 1.5rem !important;
+    }
+
+    .pt-4, .py-4 {
+        padding-top: 1.5rem !important;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
     .newCard {
         list-style: none;
         padding: 0;
@@ -372,7 +448,7 @@
 
     label {
         font-weight: bold;
-        display: block;
+        display: inline-block;
         margin-bottom: 0.3rem;
     }
 
@@ -399,6 +475,7 @@
         padding-bottom: 1.5rem;
         border-radius: 0 !important;
     }
+
     .info-color-dark {
         background-color: #09c !important;
     }
@@ -418,6 +495,7 @@
     *, *::before, *::after {
         box-sizing: border-box;
     }
+
     div {
         display: block;
     }
@@ -579,6 +657,7 @@
         font-family: "Roboto",sans-serif;
         font-weight: 300;
     }
+
     .fixed-sn .double-nav, .fixed-sn main, .fixed-sn footer {
         padding-left: 0;
     }
@@ -586,12 +665,14 @@
     .fixed-sn .double-nav, .fixed-sn main, .fixed-sn footer {
         padding-left: 15rem;
     }
+
     .navbar.scrolling-navbar {
         padding-top: 12px;
         padding-bottom: 12px;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
+
     .navbar {
         font-weight: 300;
         -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
@@ -610,7 +691,7 @@
         z-index: 1030;
     }
 
-   .navbar-expand-md {
+    .navbar-expand-md {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         -ms-flex-pack: start;
@@ -638,10 +719,11 @@
         box-sizing: border-box;
     }
 
-    
+
     nav {
         display: block;
     }
+
     .nav li {
         list-style: none;
     }
@@ -650,7 +732,19 @@
         box-sizing: border-box;
     }
 
-  
+    #app {
+        text-align: center;
+    }
+
+    img {
+        width: 30%;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    button {
+    }
     li {
         display: list-item;
         text-align: -webkit-match-parent;
@@ -672,7 +766,7 @@
         list-style: none;
     }
 
-  
+
     ul {
         list-style-type: disc;
     }

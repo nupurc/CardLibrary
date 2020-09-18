@@ -5,15 +5,18 @@
                  alt="Solar Coffee logo"
                  src="../assets/images/solar_coffee_logo.png" />
         </router-link>
-        <h1><a id="menuhome" href="https://cardlib.azurewebsites.net/">Management Portal</a></h1>
-        <a id="menuCard" href="https://cardlib.azurewebsites.net/card">
+        <h1><a id="menuhome" href="https://cardlibstorage.z13.web.core.windows.net/">Management Portal</a></h1>
+        <a id="menuCard" href="https://cardlibstorage.z13.web.core.windows.net/card">
             Card  Gallery    <i> </i>
         </a>
-        <a id="menuCard" href="https://cardlib.azurewebsites.net//user">
-            User  Creation    <i> </i>
+        <a id="menuCard" href="https://cardlibstorage.z13.web.core.windows.net/user">
+            Manage User  <i> </i>
         </a>
-        <a id="menuCard" href="https://cardlib.azurewebsites.net/users">
-            User  List    <i> </i>
+        <a id="menuUserList" href="https://cardlibstorage.z13.web.core.windows.net/users">
+            User  List <i> </i>
+        </a>
+        <a id="menucardList" href="https://cardlibstorage.z13.web.core.windows.net/cards">
+            Card Creation <i> </i>
         </a>
     </div>
 </template>
