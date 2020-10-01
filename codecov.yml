@@ -1,1 +1,2 @@
-CODECOV_TOKEN=d85c9767-5ea5-4c7d-a623-ee4721f7a3aa
+codecov:
+  token: d85c9767-5ea5-4c7d-a623-ee4721f7a3a
