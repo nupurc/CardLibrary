@@ -3,6 +3,6 @@
 
 https://cardlibstorage.z22.web.core.windows.net/
 
-https://cardlibapi.azurewebsites.net/swagger/index.html
+https://cardlibapinew.azurewebsites.net/swagger/index.html
 
 https://app.codacy.com/gh/nupurc/CardLibrary/dashboard
