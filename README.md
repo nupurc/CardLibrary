@@ -10,3 +10,9 @@ https://app.codacy.com/gh/nupurc/CardLibrary/dashboard
 https://travis-ci.com/github/nupurc/CardLibrary
 
 https://codecov.io/gh/nupurc/CardLibrary
+
+
+<a href="https://codecov.io/gh/nupurc/CardLibrary">
+        <img src="https://codecov.io/gh/nupurc/CardLibrary/branch/master/graph/badge.svg?token=SBMGOY1CPU"/>
+</a>
+    
