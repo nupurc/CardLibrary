@@ -6,3 +6,7 @@ https://cardlibstorage.z19.web.core.windows.net/
 https://cardlibapinew.azurewebsites.net/swagger/index.html
 
 https://app.codacy.com/gh/nupurc/CardLibrary/dashboard
+
+https://travis-ci.com/github/nupurc/CardLibrary
+
+https://codecov.io/gh/nupurc/CardLibrary
